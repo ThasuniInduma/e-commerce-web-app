@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import logo from '../Assetes/logo.png'
+import logo from '../Assetes/logo2.png'
 import cart_icon from '../Assetes/cart_icon.png'
 import { Link } from 'react-router-dom'
 
@@ -12,10 +12,10 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='nav-logo'>
         <img src={logo} alt="" />
-        <p>Shoporia</p>
+        <p>StyleHive</p>
       </div>
       <ul className='nav-menu'>
-        <li onClick={() => {setMenu("shop")}}><Link to='/' style={{textDecoration: 'none', color: '#515151'}}>Shop</Link>  {menu==="shop"? <hr/>:<></>}</li>
+        <li onClick={() => {setMenu("shop")}}><Link to='/' style={{textDecoration: 'none', color: '#515151'}}>Home</Link>  {menu==="shop"? <hr/>:<></>}</li>
         <li onClick={() => {setMenu("men")}}><Link to='/men' style={{textDecoration: 'none', color: '#515151'}}>Men</Link> {menu==="men"? <hr/>:<></>}</li>
         <li onClick={() => {setMenu("women")}}><Link to='/women' style={{textDecoration: 'none', color: '#515151'}}>Women</Link> {menu==="women"? <hr/>:<></>}</li>
         <li onClick={() => {setMenu("kids")}}><Link to='/kids' style={{textDecoration: 'none', color: '#515151'}}>Kids</Link> {menu==="kids"? <hr/>:<></>}</li>

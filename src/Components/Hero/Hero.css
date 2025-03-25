@@ -1,6 +1,9 @@
 .hero{
     height: 100vh;
-    background: linear-gradient(180deg, #e1e3ff, #e1ffea22 60%);
+    background-image: url('../Assetes/header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
 }
 .hero-left{
@@ -13,33 +16,25 @@
     line-height: 1.1;
 }
 .hero-left h2{
-    color: #090909;
-    font-size: 26px;
+    color: #b59f7a;
+    font-size: 30px;
     font-weight: 600;
 }
 .hero-left p{
-    color: #171717;
-    font-size: 100px;
+    color: #e6d0be;
+    font-size: 75px;
     font-weight: 700;
-}
-.hand-icon{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.hand-icon img{
-    width: 105px;
 }
 .hero-btn{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    width: 310px;
-    height: 70px;
-    border-radius: 75px;
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
     margin-top: 30px;
-    background: #ff4141;
+    background: #b59f7a;
     color: white;
     font-size: 22px;
     font-weight: 500;
