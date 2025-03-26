@@ -1,0 +1,43 @@
+.offers{
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    margin: auto;
+    padding: 0px 140px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    border-radius: 25px;
+    background-image: url('../Assetes/exclusive_image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.offers-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 850px;
+}
+.offers-right h1{
+    color: #ddc2b2;
+    font-size: 80px;
+    font-weight: 600;
+}
+.offers-right p{
+    color: #8e7768;
+    font-size: 22px;
+    font-weight: 600;
+}
+.offers-right button{
+    width: 282px;
+    height: 70px;
+    border-radius: 20px;
+    background: #6f5a4e;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
