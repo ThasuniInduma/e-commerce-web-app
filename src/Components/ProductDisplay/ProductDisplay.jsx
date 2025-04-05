@@ -1,5 +1,7 @@
 import React from 'react'
 import './ProductDisplay.css'
+import star_icon from '../Assetes/star_icon.png';
+import star_dull_icon from '../Assetes/star_dull_icon.png'
 
 const ProductDisplay = (props) => {
     const {product} = props;
@@ -19,11 +21,12 @@ const ProductDisplay = (props) => {
       <div className="productdisplay-right">
         <h1>{product.name}</h1>
         <div className="productdisplay-right-star">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src={star_icon} alt="" />
+            <img src={star_icon} alt="" />
+            <img src={star_icon} alt="" />
+            <img src={star_icon} alt="" />
+            <img src={star_dull_icon} alt="" />
+            <p>(122)</p>
         </div>
       </div>
     </div>
