@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 .nav-logo p{
     color: color-mix(in srgb-linear, #b59f7a 75%, black 25%);
@@ -15,6 +16,7 @@
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif, sans-serif;
     font-style: italic;
+    cursor: pointer;
 }
 .nav-menu{
     display: flex;

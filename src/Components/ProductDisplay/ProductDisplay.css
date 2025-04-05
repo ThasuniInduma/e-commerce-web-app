@@ -50,3 +50,10 @@
 .productdisplay-right-price-new{
     color: tomato;
 }
+.productdisplay-right-description{
+    display: flex;
+}
+.productdisplay-right-sizes{
+    display: flex;
+    flex-direction: column;
+}
