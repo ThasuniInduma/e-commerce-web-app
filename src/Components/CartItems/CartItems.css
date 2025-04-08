@@ -31,7 +31,7 @@
 .cartitems-qty{
     width: 64px;
     height: 50px;
-    border: 2px solid #ebebeb;
+    border: none;
     background: #fff;
 }
 .cartitems-down{
